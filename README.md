@@ -32,6 +32,6 @@ Se utiliza el *custom hook* **useForm** para manejar los datos provenientes del 
 1. Instalar react-router-dom desde la terminal: `yarn add react-router-dom`
 2. Agregar en el *index.html* el CDN de **Bootstrap**: 
 `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">`
-3.- Agregar en el *index.html* el CDN de **Animate.css**: 
+3. Agregar en el *index.html* el CDN de **Animate.css**: 
 `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>`
 ## Desarrollo
