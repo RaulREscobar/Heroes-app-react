@@ -1,18 +1,10 @@
 import './App.css';
-import { NavBar } from './components/NavBar';
-import DC from './pages/DC';
-import Heroe from './pages/Heroe';
-import Login from './pages/Login';
-import Marvel from './pages/Marvel';
-import Search from './pages/Search';
+import { AppRouter } from './routers/AppRouter';
 
 function App() {
   return (
     <div>
-      <NavBar/>
-      <div className="container mt-3">
-      <Marvel/>
-      </div>
+      <AppRouter/>
     </div>
   );
 }

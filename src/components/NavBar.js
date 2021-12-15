@@ -1,40 +1,41 @@
+import {Link, NavLink} from 'react-router-dom'
 export const NavBar = () => {
 
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-3">
 
-            <a
+            <Link
                 className="navbar-brand"
-                href="/"
+                to="/"
             >
                 HeroApp
-            </a>
+            </Link>
 
             <div className="navbar-collapse">
                 <div className="navbar-nav">
 
-                    <a
+                    <NavLink
                         activeclassname="active"
                         className="nav-item nav-link"
-                        href="/marvel"
+                        to="/marvel"
                     >
                         Marvel
-                    </a>
+                    </NavLink>
 
-                    <a
+                    <NavLink
                         activeclassname="active"
                         className="nav-item nav-link"
-                        href="/dc"
+                        to="/dc"
                     >
                         DC
-                    </a>
-                    <a
+                    </NavLink>
+                    <NavLink
                         activeclassname="active"
                         className="nav-item nav-link"
-                        href="/search"
+                        to="/search"
                     >
                         Search
-                    </a>
+                    </NavLink>
                 </div>
             </div>
 
@@ -43,12 +44,12 @@ export const NavBar = () => {
                     <p className="nav-item nav-link text-info mb-0">
                         Usuario
                     </p>
-                    <a
+                    <button
                         className="nav-item nav-link border-0 bg-transparent"
-                        href="/login"
+                        to="/login"
                     >
                         Logout
-                    </a>
+                    </button>
                 </ul>
             </div>
 
